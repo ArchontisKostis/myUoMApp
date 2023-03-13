@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="307dp"
-        android:layout_height="441dp"
+        android:layout_width="377dp"
+        android:layout_height="448dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="43dp"
             android:text="Welcome to myUoM App"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="30dp" />
 
@@ -37,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="You have to login first."
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp" />
 
