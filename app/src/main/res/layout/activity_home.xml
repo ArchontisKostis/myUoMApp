@@ -26,6 +26,7 @@
             android:id="@+id/services_btn_1"
             android:layout_width="144dp"
             android:layout_height="126dp"
+            android:background="#304FFE"
             android:text="Open eClass" />
     </LinearLayout>
 
