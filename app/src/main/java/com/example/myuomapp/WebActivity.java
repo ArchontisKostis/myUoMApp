@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class WebActivity extends AppCompatActivity {
     WebView webView;
@@ -19,6 +20,7 @@ public class WebActivity extends AppCompatActivity {
         String intentUrl = intent.getStringExtra("url");
 
         webView = (WebView) findViewById(R.id.webview);
+        webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(intentUrl);
 
         WebSettings webSettings = webView.getSettings();
