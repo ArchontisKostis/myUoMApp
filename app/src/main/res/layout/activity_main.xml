@@ -11,7 +11,7 @@
         android:id="@+id/login_prompt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/Syne_Font"
+        android:fontFamily="@font/syne_font"
         android:text="@string/main_activity_header_text"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -22,12 +22,13 @@
 
     <TextView
         android:id="@+id/welcome_text"
-        android:layout_width="match_parent"
-        android:layout_height="43dp"
+        android:layout_width="407dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/syne_font"
         android:text="@string/main_activity_caption_text"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="27sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_imageview" />
