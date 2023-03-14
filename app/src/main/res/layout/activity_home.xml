@@ -6,52 +6,135 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <TextView
-        android:id="@+id/services_header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
-        android:text="@string/services_header_text_1"
-        android:textColor="@color/primary_color"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/services_btn_1"
-        android:layout_width="180dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/primary_color"
-        android:text="@string/services_btn_text_1"
-        android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/services_header" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/services_btn_2"
-        android:layout_width="180dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/primary_color"
-        android:text="@string/services_btn_text_2"
-        android:textColor="@color/secondary_color"
-        app:layout_constraintStart_toEndOf="@+id/services_btn_1"
-        app:layout_constraintTop_toBottomOf="@+id/services_header" />
+            <TextView
+                android:id="@+id/services_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/services_header_text_1"
+                android:textColor="@color/primary_color"
+                android:textSize="25sp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/services_btn_3"
-        android:layout_width="180dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/primary_color"
-        android:textColor="@color/white"
-        android:text="@string/services_btn_text_3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/services_btn_1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/services_btn_1"
+                    android:layout_width="180dp"
+                    android:layout_height="123dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary_color"
+                    android:text="@string/services_btn_text_1"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/services_btn_2"
+                    android:layout_width="180dp"
+                    android:layout_height="123dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary_color"
+                    android:text="@string/services_btn_text_2"
+                    android:textColor="@color/secondary_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/services_btn_3"
+                    android:layout_width="180dp"
+                    android:layout_height="123dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/primary_color"
+                    android:text="@string/services_btn_text_3"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/services_header_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/services_header_text_2"
+                android:textColor="@color/primary_color"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/uni_services_btn_1"
+                    android:layout_width="180dp"
+                    android:layout_height="123dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary_color"
+                    android:text="@string/university_website_btn"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/uni_services_btn_2"
+                    android:layout_width="180dp"
+                    android:layout_height="123dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary_color"
+                    android:text="@string/student_care_btn"
+                    android:textColor="@color/secondary_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/uni_services_btn_3"
+                    android:layout_width="180dp"
+                    android:layout_height="123dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary_color"
+                    android:text="@string/graduation_btn"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/uni_services_btn_4"
+                    android:layout_width="180dp"
+                    android:layout_height="123dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary_color"
+                    android:text="@string/library_btn"
+                    android:textColor="@color/secondary_color" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
