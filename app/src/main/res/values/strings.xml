@@ -1,3 +1,7 @@
 <resources>
+    <!--  Main Activity  -->
     <string name="app_name">MyUoM App</string>
+    <string name="main_activity_header_text">You have to login first.</string>
+    <string name="main_activity_caption_text">Welcome to myUoM App</string>
+    <string name="main_activity_btn_text">Login</string>
 </resources>
