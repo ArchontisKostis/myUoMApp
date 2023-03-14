@@ -26,6 +26,9 @@ Our app consolidates all the most-used University services websites, including O
 - Helps you stay up-to-date with University news and announcements
 - Enhances your user experience with a sleek and modern design
 
+## **📝 Usage Guide for Other Universities**
+If you are from another university and would like to use myUoM App, we welcome you! You can view info on how to use our app on our [USAGE GUIDE]().
+
 ## **🚀 Getting Started**
 
 To get started with myUoM App, simply download the latest release from the **[releases page]()** of this repository and install it on your Android device.
