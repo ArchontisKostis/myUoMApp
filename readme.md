@@ -40,6 +40,9 @@ We welcome contributions from anyone who is interested in improving myUoM App. I
 
 myUoM App is licensed under the **[XXX]()**. You are free to use, modify, and distribute this software as long as you include the original copyright notice and license text.
 
+## **🐞 Report Problems**
+If you encounter any issues while using the app, please let us know by opening an issue on the issues page. Please describe the problem you're having in detail, including any error messages or steps to reproduce the issue. We'll do our best to resolve the issue as soon as possible. Thank you for helping us improve the app!
+
 ## **📧 Contact**
 
 If you have any questions or feedback, feel free to reach out to us at [linux-team@uom.edu.gr](mailto:linux-team@uom.edu.gr). We would love to hear from you!
