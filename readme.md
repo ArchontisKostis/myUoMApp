@@ -28,17 +28,17 @@ Our app consolidates all the most-used University services websites, including O
 
 ## **🚀 Getting Started**
 
-To get started with myUoM App, simply download the latest release from the **[releases page](https://github.com/OpenSourceUoM/myUoM-App/releases)** of this repository and install it on your Android device.
+To get started with myUoM App, simply download the latest release from the **[releases page]()** of this repository and install it on your Android device.
 
-Alternatively, you can clone this repository and build the app from source. Refer to the **[documentation](https://github.com/OpenSourceUoM/myUoM-App/blob/main/Documentation.md)** for more information on building the app.
+Alternatively, you can clone this repository and build the app from source. Refer to the **[documentation]()** for more information on building the app.
 
 ## **🤝 Contributing**
 
-We welcome contributions from anyone who is interested in improving myUoM App. If you have an idea for a new feature, or if you have found a bug that needs to be fixed, feel free to open an issue or submit a pull request. Refer to the **[contributing guidelines](https://github.com/OpenSourceUoM/myUoM-App/blob/main/CONTRIBUTING.md)** for more information.
+We welcome contributions from anyone who is interested in improving myUoM App. If you have an idea for a new feature, or if you have found a bug that needs to be fixed, feel free to open an issue or submit a pull request. Refer to the **[contributing guidelines]()** for more information.
 
 ## **📄 License**
 
-myUoM App is licensed under the **[MIT License](https://github.com/OpenSourceUoM/myUoM-App/blob/main/LICENSE)**. You are free to use, modify, and distribute this software as long as you include the original copyright notice and license text.
+myUoM App is licensed under the **[XXX]()**. You are free to use, modify, and distribute this software as long as you include the original copyright notice and license text.
 
 ## **📧 Contact**
 
