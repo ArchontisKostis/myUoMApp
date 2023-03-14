@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        loginButton = (Button) findViewById(R.id.login_btn);
-        loginButton.setOnClickListener(view -> {
-            Log.w("INFO", "Fake production sign in (MainActivity)");
-            Intent intent = new Intent(this, HomeActivity.class);
-            Log.i("INFO", "Start HomeActivity");
-            startActivity(intent);
-        });
+//        loginButton = (Button) findViewById(R.id.login_btn);
+//        loginButton.setOnClickListener(view -> {
+//            Log.w("INFO", "Fake production sign in (MainActivity)");
+//            Intent intent = new Intent(this, HomeActivity.class);
+//            Log.i("INFO", "Start HomeActivity");
+//            startActivity(intent);
+//        });
 
         Log.i("INFO", "MainActivity created");
     }

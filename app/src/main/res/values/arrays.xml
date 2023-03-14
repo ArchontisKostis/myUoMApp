@@ -18,4 +18,15 @@
         <item>@string/graduation_url</item>
         <item>@string/library_url</item>
     </string-array>
+
+    <string-array name="departments">
+        <item>Οργάνωσης &amp; Διοίκησης Επιχειρήσεων</item>
+        <item>Οικονομικών Επιστημών</item>
+        <item>Μουσικής Επιστήμης &amp; Τέχνης</item>
+        <item>Λογιστικής και Χρηματοοικονομικής</item>
+        <item>Εφαρμοσμένης Πληροφορικής</item>
+        <item>Εκπαιδευτικής &amp; Κοινωνικής Πολιτικής</item>
+        <item>Διεθνών &amp; Ευρωπαϊκών Σπουδών</item>
+        <item>Βαλκανικών, Σλαβικών &amp; Ανατολικών Σπουδών</item>
+    </string-array>
 </resources>
