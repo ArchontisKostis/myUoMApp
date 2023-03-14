@@ -7,49 +7,47 @@
     android:background="#0056F1"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="377dp"
-        android:layout_height="448dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/login_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have to login first."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Welcome to myUoM App"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_imageview" />
+
+    <ImageView
+        android:id="@+id/home_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532">
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@mipmap/icon_test"
+        tools:layout_editor_absoluteX="0dp" />
 
-        <ImageView
-            android:id="@+id/home_imageview"
-            android:layout_width="match_parent"
-            android:layout_height="305dp"
-            app:srcCompat="@mipmap/icon_test" />
-
-        <TextView
-            android:id="@+id/welcome_text"
-            android:layout_width="match_parent"
-            android:layout_height="43dp"
-            android:text="Welcome to myUoM App"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
-
-        <TextView
-            android:id="@+id/login_prompt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="You have to login first."
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="20dp" />
-
-        <Button
-            android:id="@+id/login_btn"
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:background="@color/white"
-            android:text="Login with google sso"
-            android:textColor="@color/purple_700" />
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="201dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_prompt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
