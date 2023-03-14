@@ -1,10 +1,12 @@
-package com.example.myuomapp;
+package com.example.myuomapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.example.myuomapp.R;
 
 public class HomeActivity extends AppCompatActivity {
     Button eClassBtn;

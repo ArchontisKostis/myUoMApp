@@ -7,8 +7,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.Spinner;
+
+import com.example.myuomapp.activities.HomeActivity;
 
 public class MainActivity extends AppCompatActivity {
     Spinner departmentSelectSpinner;

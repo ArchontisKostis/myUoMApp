@@ -1,4 +1,4 @@
-package com.example.myuomapp;
+package com.example.myuomapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.example.myuomapp.R;
 
 public class WebActivity extends AppCompatActivity {
     WebView webView;
