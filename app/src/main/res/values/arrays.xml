@@ -4,9 +4,18 @@
     <string name="e_classroom_url">https://eclass.uom.gr</string>
     <string name="eudoxus_url">https://eudoxus.gr/</string>
 
+    <string name="university_website_url">https://www.uom.gr/dai</string>
+    <string name="student_care_url">https://www.uom.gr/student-care</string>
+    <string name="graduation_url">https://www.uom.gr/dai/apofoithsh</string>
+    <string name="library_url">https://www.lib.uom.gr/index.php/el/</string>
+
     <string-array name="webview_urls">
         <item>@string/students_portal_url</item>
         <item>@string/students_portal_url</item>
         <item>@string/eudoxus_url</item>
+        <item>@string/university_website_url</item>
+        <item>@string/student_care_url</item>
+        <item>@string/graduation_url</item>
+        <item>@string/library_url</item>
     </string-array>
 </resources>
