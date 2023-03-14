@@ -9,4 +9,5 @@
     <string name="services_header_text_1">Student Services</string>
     <string name="services_btn_text_1">StudentsWeb</string>
     <string name="services_btn_text_2">eClass</string>
+    <string name="services_btn_text_3">Eudoxus</string>
 </resources>
