@@ -42,4 +42,16 @@
         app:layout_constraintStart_toEndOf="@+id/services_btn_1"
         app:layout_constraintTop_toBottomOf="@+id/services_header" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/services_btn_3"
+        android:layout_width="180dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/primary_color"
+        android:textColor="@color/white"
+        android:text="@string/eudoxus_url"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/services_btn_1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

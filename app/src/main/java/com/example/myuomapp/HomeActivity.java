@@ -9,6 +9,7 @@ import android.widget.Button;
 public class HomeActivity extends AppCompatActivity {
     Button eClassBtn;
     Button studentsWebBtn;
+    Button eudoxusBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,10 +29,17 @@ public class HomeActivity extends AppCompatActivity {
             intent.putExtra("url", R.string.students_portal_url);
             startActivity(intent);
         });
+
+        eudoxusBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this, WebActivity.class);
+            intent.putExtra("url", R.string.eudoxus_url);
+            startActivity(intent);
+        });
     }
 
     private void findViews() {
-        eClassBtn = (Button) findViewById(R.id.services_btn_1);
         studentsWebBtn = (Button) findViewById(R.id.services_btn_1);
+        eClassBtn = (Button) findViewById(R.id.services_btn_2);
+        eudoxusBtn = (Button) findViewById(R.id.services_btn_3);
     }
 }
