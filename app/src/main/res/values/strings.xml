@@ -7,12 +7,15 @@
 
     <!--  Home Activity  -->
     <string name="services_header_text_1">Υπηρεσίες Φοιτητή</string>
+
     <string name="services_btn_text_1">StudentsWeb</string>
     <string name="services_btn_text_2">eClass</string>
-    <string name="services_btn_text_3">Εύδοξος</string>
+    <string name="services_btn_text_3">Ευδοξος</string>
+
     <string name="services_header_text_2">Υπηρεσίες Πανεπιστημίου</string>
-    <string name="university_website_btn">Ιστοσελίδα ΠΑ.ΜΑΚ.</string>
-    <string name="student_care_btn">Φοιτητική Μέριμνα</string>
-    <string name="graduation_btn">Αποφοίτηση</string>
-    <string name="library_btn">Βιβλιοθήκη</string>
+
+    <string name="university_website_btn">Ιστοσελιδα ΠΑ.ΜΑΚ.</string>
+    <string name="student_care_btn">Φοιτητικη Μεριμνα</string>
+    <string name="graduation_btn">Αποφοιτηση</string>
+    <string name="library_btn">Βιβλιοθηκη</string>
 </resources>

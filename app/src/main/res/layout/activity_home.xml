@@ -39,8 +39,10 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:background="@color/primary_color"
+                    android:fontFamily="@font/syne_font"
                     android:text="@string/services_btn_text_1"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/services_btn_2"
@@ -49,8 +51,10 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:background="@color/primary_color"
+                    android:fontFamily="@font/syne_font"
                     android:text="@string/services_btn_text_2"
-                    android:textColor="@color/secondary_color" />
+                    android:textColor="@color/secondary_color"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -66,8 +70,10 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@color/primary_color"
+                    android:fontFamily="@font/syne_font"
                     android:text="@string/services_btn_text_3"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <TextView
@@ -76,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="20dp"
+                android:fontFamily="@font/syne_font"
                 android:text="@string/services_header_text_2"
                 android:textColor="@color/primary_color"
                 android:textSize="25sp" />
@@ -92,8 +99,10 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:background="@color/primary_color"
+                    android:fontFamily="@font/syne_font"
                     android:text="@string/university_website_btn"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/uni_services_btn_2"
@@ -102,8 +111,10 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:background="@color/primary_color"
+                    android:fontFamily="@font/syne_font"
                     android:text="@string/student_care_btn"
-                    android:textColor="@color/secondary_color" />
+                    android:textColor="@color/secondary_color"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -119,8 +130,10 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:background="@color/primary_color"
+                    android:fontFamily="@font/syne_font"
                     android:text="@string/graduation_btn"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/uni_services_btn_4"
@@ -129,8 +142,10 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:background="@color/primary_color"
+                    android:fontFamily="@font/syne_font"
                     android:text="@string/library_btn"
-                    android:textColor="@color/secondary_color" />
+                    android:textColor="@color/secondary_color"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
