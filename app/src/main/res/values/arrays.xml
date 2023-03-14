@@ -2,9 +2,11 @@
 <resources>
     <string name="students_portal_url">https://services.uom.gr/unistudent/</string>
     <string name="e_classroom_url">https://eclass.uom.gr</string>
+    <string name="eudoxus_url">https://eudoxus.gr/</string>
 
     <string-array name="webview_urls">
         <item>@string/students_portal_url</item>
         <item>@string/students_portal_url</item>
+        <item>@string/eudoxus_url</item>
     </string-array>
 </resources>
