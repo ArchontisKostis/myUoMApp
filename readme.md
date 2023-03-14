@@ -27,7 +27,7 @@ Our app consolidates all the most-used University services websites, including O
 - Enhances your user experience with a sleek and modern design
 
 ## **📝 Usage Guide for Other Universities**
-If you are from another university and would like to use myUoM App, we welcome you! You can view info on how to use our app on our [USAGE GUIDE]().
+If you are from another university and would like to use myUoM App, we welcome you! You can view info on how to use our app on our [USAGE GUIDE](https://github.com/ArchontisKostis/myUoMApp/blob/master/docs/en/usage_guide.md).
 
 ## **🚀 Getting Started**
 
