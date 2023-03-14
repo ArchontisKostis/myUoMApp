@@ -19,13 +19,13 @@ public class HomeActivity extends AppCompatActivity {
 
         eClassBtn.setOnClickListener(view -> {
             Intent intent = new Intent(this, WebActivity.class);
-            intent.putExtra("url", "https://eclass.uom.gr/");
+            intent.putExtra("url", R.string.e_classroom_url);
             startActivity(intent);
         });
 
         studentsWebBtn.setOnClickListener(view -> {
             Intent intent = new Intent(this, WebActivity.class);
-            intent.putExtra("url", "https://services.uom.gr/unistudent/login.asp");
+            intent.putExtra("url", R.string.students_portal_url);
             startActivity(intent);
         });
     }
