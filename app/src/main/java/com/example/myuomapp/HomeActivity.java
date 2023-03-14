@@ -20,19 +20,19 @@ public class HomeActivity extends AppCompatActivity {
 
         eClassBtn.setOnClickListener(view -> {
             Intent intent = new Intent(this, WebActivity.class);
-            intent.putExtra("url", R.string.e_classroom_url);
+            intent.putExtra("url", getString(R.string.e_classroom_url));
             startActivity(intent);
         });
 
         studentsWebBtn.setOnClickListener(view -> {
             Intent intent = new Intent(this, WebActivity.class);
-            intent.putExtra("url", R.string.students_portal_url);
+            intent.putExtra("url", getString(R.string.students_portal_url));
             startActivity(intent);
         });
 
         eudoxusBtn.setOnClickListener(view -> {
             Intent intent = new Intent(this, WebActivity.class);
-            intent.putExtra("url", R.string.eudoxus_url);
+            intent.putExtra("url", getString(R.string.eudoxus_url));
             startActivity(intent);
         });
     }
