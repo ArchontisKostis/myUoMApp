@@ -1,18 +1,18 @@
 <resources>
     <!--  Main Activity  -->
     <string name="app_name">MyUoM App</string>
-    <string name="main_activity_header_text">Please select your Department:</string>
-    <string name="main_activity_caption_text">Welcome to myUoM App</string>
+    <string name="main_activity_header_text">Παρακαλώ επιλέξτε Τμήμα:</string>
+    <string name="main_activity_caption_text">Καλως ήρθες στο myUoM App</string>
     <string name="main_activity_btn_text">Login</string>
 
     <!--  Home Activity  -->
-    <string name="services_header_text_1">Student Services</string>
+    <string name="services_header_text_1">Υπηρεσίες Φοιτητή</string>
     <string name="services_btn_text_1">StudentsWeb</string>
     <string name="services_btn_text_2">eClass</string>
-    <string name="services_btn_text_3">Eudoxus</string>
-    <string name="services_header_text_2">University Services</string>
-    <string name="university_website_btn">University Website</string>
-    <string name="student_care_btn">Student Care</string>
-    <string name="graduation_btn">Graduation</string>
-    <string name="library_btn">Library</string>
+    <string name="services_btn_text_3">Εύδοξος</string>
+    <string name="services_header_text_2">Υπηρεσίες Πανεπιστημίου</string>
+    <string name="university_website_btn">Ιστοσελίδα ΠΑ.ΜΑΚ.</string>
+    <string name="student_care_btn">Φοιτητική Μέριμνα</string>
+    <string name="graduation_btn">Αποφοίτηση</string>
+    <string name="library_btn">Βιβλιοθήκη</string>
 </resources>
