@@ -32,6 +32,6 @@ public class HomeActivity extends AppCompatActivity {
 
     private void findViews() {
         eClassBtn = (Button) findViewById(R.id.services_btn_1);
-        studentsWebBtn = (Button) findViewById(R.id.services_btn_2);
+        studentsWebBtn = (Button) findViewById(R.id.services_btn_1);
     }
 }

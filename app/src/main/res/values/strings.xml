@@ -4,4 +4,9 @@
     <string name="main_activity_header_text">You have to login first.</string>
     <string name="main_activity_caption_text">Welcome to myUoM App</string>
     <string name="main_activity_btn_text">Login</string>
+
+    <!--  Home Activity  -->
+    <string name="services_header_text_1">University Services</string>
+    <string name="services_btn_text_1">StudentsWeb</string>
+    <string name="services_btn_text_2">eClass</string>
 </resources>
