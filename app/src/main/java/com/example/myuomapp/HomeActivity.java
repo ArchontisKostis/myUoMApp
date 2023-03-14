@@ -14,6 +14,8 @@ public class HomeActivity extends AppCompatActivity {
     Button studentCareBtn;
     Button graduationBtn;
     Button libraryBtn;
+    Button newsBtn;
+    Button developerTeamBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,8 @@ public class HomeActivity extends AppCompatActivity {
         setButtonOnClickListener(studentCareBtn, getString(R.string.student_care_url));
         setButtonOnClickListener(graduationBtn, getString(R.string.graduation_url));
         setButtonOnClickListener(libraryBtn, getString(R.string.library_url));
+        setButtonOnClickListener(newsBtn, getString(R.string.university_news_url));
+        setButtonOnClickListener(developerTeamBtn, getString(R.string.developer_team_url));
     }
 
     private void findViews() {
@@ -42,6 +46,9 @@ public class HomeActivity extends AppCompatActivity {
         studentCareBtn = (Button) findViewById(R.id.uni_services_btn_2);
         graduationBtn = (Button) findViewById(R.id.uni_services_btn_3);
         libraryBtn = (Button) findViewById(R.id.uni_services_btn_4);
+        newsBtn = (Button) findViewById(R.id.uni_services_btn_5);
+
+        developerTeamBtn = (Button) findViewById(R.id.more_btn_1);
     }
 
     private void setButtonOnClickListener(Button btn, String url){

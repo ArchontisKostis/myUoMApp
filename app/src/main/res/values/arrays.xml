@@ -8,6 +8,8 @@
     <string name="student_care_url">https://www.uom.gr/student-care</string>
     <string name="graduation_url">https://www.uom.gr/dai/apofoithsh</string>
     <string name="library_url">https://www.lib.uom.gr/index.php/el/</string>
+    <string name="university_news_url">https://www.uom.gr/nea</string>
+    <string name="developer_team_url">https://opensource.uom.gr/</string>
 
     <string-array name="webview_urls">
         <item>@string/students_portal_url</item>
@@ -17,6 +19,7 @@
         <item>@string/student_care_url</item>
         <item>@string/graduation_url</item>
         <item>@string/library_url</item>
+        <item>@string/university_news_url</item>
     </string-array>
 
     <string-array name="departments">

@@ -18,4 +18,6 @@
     <string name="student_care_btn">Φοιτητικη Μεριμνα</string>
     <string name="graduation_btn">Αποφοιτηση</string>
     <string name="library_btn">Βιβλιοθηκη</string>
+
+    <string name="services_header_text_3">Περισσότερα</string>
 </resources>
