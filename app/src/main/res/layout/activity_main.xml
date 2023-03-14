@@ -42,7 +42,7 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/department_select_spinner"
         android:layout_width="353dp"
         android:layout_height="50dp"
         android:addStatesFromChildren="false"

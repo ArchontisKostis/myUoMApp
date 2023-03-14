@@ -20,6 +20,7 @@
     </string-array>
 
     <string-array name="departments">
+        <item>--- ΕΠΙΛΕΞΤΕ ΤΜΗΜΑ ---</item>
         <item>Οργάνωσης &amp; Διοίκησης Επιχειρήσεων</item>
         <item>Οικονομικών Επιστημών</item>
         <item>Μουσικής Επιστήμης &amp; Τέχνης</item>
